@@ -10,7 +10,8 @@ package com.example.Springbootexample;
 public class PingRestController {
 
     @RequestMapping(method = RequestMethod.GET, path = "/api/ping")
-    public ResponseEntity<String> getPing() {
+    public ResponseEntity<String> getPing()
+    {
         return ResponseEntity.ok("pong");
     }
 
